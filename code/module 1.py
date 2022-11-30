@@ -1,7 +1,6 @@
 import os
 import moviepy.editor as movpy
 
-import ffmpeg as ffmpeg
 
 start_dir = os.getcwd()
 # start_dir = '/movie/'
