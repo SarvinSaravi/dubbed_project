@@ -1,8 +1,11 @@
 import speech_recognition as sr
 import moviepy.editor as mp
+import time
 
-clip = mp.VideoFileClip(r"video.mp4")  # specify the correct file path to your video file
-clip.audio.write_audiofile(r"converted_mp3.wav")  # this the name of the coverted audio file
+start_time = time.time()
+
+# clip = mp.VideoFileClip(r"video2.mp4")  # specify the correct file path to your video file
+# clip.audio.write_audiofile(r"converted_mp3.wav")  # this the name of the converted audio file
 
 r = sr.Recognizer()
 audio = sr.AudioFile(r"converted_mp3.wav")  # give the audio file name here
@@ -20,3 +23,6 @@ with open('recognized_text_file.txt', mode='w') as file:
 with open('recognized_text_file.txt') as file:
     lines = file.readlines()
     print(lines)
+
+print()
+print("--- %s seconds ---" % (time.time() - start_time))
