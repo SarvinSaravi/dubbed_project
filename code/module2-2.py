@@ -99,7 +99,7 @@ for i in range(0, 2 * n, interval):
 
     # Specify the audio file to recognize
 
-    AUDIO_FILE = r"converted_mp3.wav"
+    AUDIO_FILE = filename
 
     # Initialize the recognizer
     r = sr.Recognizer()
