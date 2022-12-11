@@ -10,3 +10,100 @@ https://www.geeksforgeeks.org/audio-processing-using-pydub-and-google-speechreco
 ==============================================================================
 
 https://www.codespeedy.com/split-audio-files-using-silence-detection-in-python/
+
+==============================================================================
+
+"C:\Program Files\Python310\python.exe" D:\Python\dubbed_project\code\module2-2.py
+C:\Program Files\Python310\lib\site-packages\pydub\utils.py:170: RuntimeWarning: Couldn't find ffmpeg or avconv - defaulting to ffmpeg, but may not work
+  warn("Couldn't find ffmpeg or avconv - defaulting to ffmpeg, but may not work", RuntimeWarning)
+Processing chunk 1. Start = 0 end = 20000
+Processing chunk 2. Start = 18500.0 end = 38500.0
+Processing chunk 3. Start = 37000.0 end = 57000.0
+Could not understand audio
+Processing chunk 4. Start = 55500.0 end = 75500.0
+Could not understand audio
+Processing chunk 5. Start = 74000.0 end = 94000.0
+Could not understand audio
+Processing chunk 6. Start = 92500.0 end = 112500.0
+Processing chunk 7. Start = 111000.0 end = 131000.0
+Processing chunk 8. Start = 129500.0 end = 149500.0
+Processing chunk 9. Start = 148000.0 end = 168000.0
+Could not understand audio
+Processing chunk 10. Start = 166500.0 end = 186500.0
+Processing chunk 11. Start = 185000.0 end = 205000.0
+Processing chunk 12. Start = 203500.0 end = 223500.0
+Processing chunk 13. Start = 222000.0 end = 242000.0
+Processing chunk 14. Start = 240500.0 end = 260500.0
+Processing chunk 15. Start = 259000.0 end = 279000.0
+Processing chunk 16. Start = 277500.0 end = 297500.0
+Could not understand audio
+Processing chunk 17. Start = 296000.0 end = 316000.0
+Processing chunk 18. Start = 314500.0 end = 334500.0
+Processing chunk 19. Start = 333000.0 end = 353000.0
+Processing chunk 20. Start = 351500.0 end = 371500.0
+Processing chunk 21. Start = 370000.0 end = 390000.0
+Processing chunk 22. Start = 388500.0 end = 408500.0
+Processing chunk 23. Start = 407000.0 end = 427000.0
+Could not understand audio
+Processing chunk 24. Start = 425500.0 end = 445500.0
+Processing chunk 25. Start = 444000.0 end = 464000.0
+Processing chunk 26. Start = 462500.0 end = 482500.0
+Processing chunk 27. Start = 481000.0 end = 501000.0
+Processing chunk 28. Start = 499500.0 end = 519500.0
+Processing chunk 29. Start = 518000.0 end = 538000.0
+Processing chunk 30. Start = 536500.0 end = 556500.0
+Processing chunk 31. Start = 555000.0 end = 575000.0
+Processing chunk 32. Start = 573500.0 end = 593500.0
+Processing chunk 33. Start = 592000.0 end = 612000.0
+Processing chunk 34. Start = 610500.0 end = 630500.0
+Processing chunk 35. Start = 629000.0 end = 649000.0
+Processing chunk 36. Start = 647500.0 end = 667500.0
+Processing chunk 37. Start = 666000.0 end = 686000.0
+Processing chunk 38. Start = 684500.0 end = 704500.0
+Processing chunk 39. Start = 703000.0 end = 723000.0
+Processing chunk 40. Start = 721500.0 end = 741500.0
+Processing chunk 41. Start = 740000.0 end = 760000.0
+Processing chunk 42. Start = 758500.0 end = 778500.0
+Processing chunk 43. Start = 777000.0 end = 797000.0
+Could not understand audio
+Processing chunk 44. Start = 795500.0 end = 815500.0
+Could not understand audio
+Processing chunk 45. Start = 814000.0 end = 834000.0
+Could not understand audio
+Processing chunk 46. Start = 832500.0 end = 852500.0
+Processing chunk 47. Start = 851000.0 end = 871000.0
+Processing chunk 48. Start = 869500.0 end = 889500.0
+Processing chunk 49. Start = 888000.0 end = 908000.0
+Could not understand audio
+Processing chunk 50. Start = 906500.0 end = 926500.0
+Processing chunk 51. Start = 925000.0 end = 945000.0
+Processing chunk 52. Start = 943500.0 end = 963500.0
+Processing chunk 53. Start = 962000.0 end = 982000.0
+Processing chunk 54. Start = 980500.0 end = 1000500.0
+Processing chunk 55. Start = 999000.0 end = 1019000.0
+Processing chunk 56. Start = 1017500.0 end = 1037500.0
+Processing chunk 57. Start = 1036000.0 end = 1056000.0
+Processing chunk 58. Start = 1054500.0 end = 1074500.0
+Processing chunk 59. Start = 1073000.0 end = 1093000.0
+Processing chunk 60. Start = 1091500.0 end = 1111500.0
+Could not understand audio
+Processing chunk 61. Start = 1110000.0 end = 1130000.0
+Could not understand audio
+Processing chunk 62. Start = 1128500.0 end = 1148500.0
+Processing chunk 63. Start = 1147000.0 end = 1167000.0
+Processing chunk 64. Start = 1165500.0 end = 1185500.0
+Processing chunk 65. Start = 1184000.0 end = 1204000.0
+Processing chunk 66. Start = 1202500.0 end = 1222500.0
+Could not understand audio
+Processing chunk 67. Start = 1221000.0 end = 1241000.0
+Could not understand audio
+Processing chunk 68. Start = 1239500.0 end = 1259500.0
+Processing chunk 69. Start = 1258000.0 end = 1278000.0
+Processing chunk 70. Start = 1276500.0 end = 1296500.0
+Could not understand audio
+Processing chunk 71. Start = 1295000.0 end = 1315000.0
+Processing chunk 72. Start = 1313500.0 end = 1333500.0
+Processing chunk 73. Start = 1332000.0 end = 1352000.0
+Processing chunk 74. Start = 1350500.0 end = 1367520
+
+Process finished with exit code 0

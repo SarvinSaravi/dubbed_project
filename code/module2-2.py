@@ -25,7 +25,7 @@ fh = open("recognized.txt", "w+")
 # chunk3 : 10 - 15 seconds
 # chunk4 : 15 - 20 seconds
 # chunk5 : 20 - 22 seconds
-interval = 5 * 1000
+interval = 20 * 1000
 
 # Length of audio to overlap.
 # If length is 22 seconds, and interval is 5 seconds,
@@ -114,7 +114,7 @@ for i in range(0, 2 * n, interval):
         rec = r.recognize_google(audio_listened)
 
         # If recognized, write into the file.
-        fh.write(rec + " ")
+        fh.write(rec + " " + "\n")
 
     # If Google could not understand the audio
     except sr.UnknownValueError:
