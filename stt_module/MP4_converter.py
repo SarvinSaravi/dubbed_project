@@ -7,7 +7,7 @@ start_time = time.time()
 start_dir = Path.cwd()
 
 
-def extract_audio_from_video():
+def mkv_to_mp4_converter():
     for path, folder, files in os.walk(start_dir):
         print("*")
         for file in files:

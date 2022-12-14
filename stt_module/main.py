@@ -1,14 +1,16 @@
-from stt_module.module1 import extract_audio_from_video
-from stt_module.module2 import convert_text_to_speech
+from stt_module.MP4_converter import mkv_to_mp4_converter
+from stt_module.speech_extracter import extract_audio_from_video
+from stt_module.text_converter import audio_slicer, convert_speech_to_text
 
 
 def main():
+    # mkv_to_mp4_converter()
     # extract_audio_from_video()
-    convert_text_to_speech()
+    # audio_slicer()
+    convert_speech_to_text(r"chunk1.wav")
 
 
 # Press the green button in the gutter to run the script.
 if __name__ == '__main__':
     main()
 
-# See PyCharm help at https://www.jetbrains.com/help/pycharm/
