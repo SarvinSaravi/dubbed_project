@@ -6,7 +6,7 @@ import speech_recognition as sr
 start_time = time.time()
 
 
-def audio_slicer():
+def speech_to_text_converter():
     # Input audio file to be sliced
     audio = AudioSegment.from_wav(r"converted_mp3.wav")
 
@@ -136,25 +136,3 @@ def audio_slicer():
         if flag == 1:
             fh.close()
             break
-
-
-def convert_speech_to_text(filename):
-    r = sr.Recognizer()
-    audio = sr.AudioFile(filename)  # give the audio file name here
-    with audio as source:
-        audio_file = r.record(source)
-
-    result = r.recognize_google(audio_file)
-
-    with open('recognized_text_file.txt', mode='w') as file:
-        file.write("speech recognized")
-        file.write("\n")
-        file.write(result)
-        print("Now the file is ready")
-
-    with open('recognized_text_file.txt') as file:
-        lines = file.readlines()
-        print(lines)
-
-    print()
-    print("--- %s seconds ---" % (time.time() - start_time))
