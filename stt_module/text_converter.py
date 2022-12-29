@@ -1,9 +1,5 @@
-import time
-
 from pydub import AudioSegment
 import speech_recognition as sr
-
-start_time = time.time()
 
 
 def speech_to_text_converter():
