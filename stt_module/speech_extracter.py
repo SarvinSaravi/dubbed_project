@@ -1,7 +1,4 @@
-import time
 import moviepy.editor as mp
-
-start_time = time.time()
 
 
 def extract_audio_from_video():
